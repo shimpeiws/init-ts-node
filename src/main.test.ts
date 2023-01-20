@@ -1,5 +1,5 @@
 import { buildString } from "./main";
 
-test("1 + 2 equals 3", () => {
+test("build Output", () => {
   expect(buildString("Hello")).toBe("Input is Hello");
 });
